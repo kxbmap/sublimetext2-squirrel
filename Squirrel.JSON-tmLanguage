@@ -32,7 +32,12 @@
     },
     { "name": "string.quoted.other.squirrel",
       "begin": "@\"",
-      "end": "\""
+      "end": "\"(?!\")",
+      "patterns": [
+        { "name": "constant.character.squirrel",
+          "match": "\"\""
+        }
+      ]
     },
     { "name": "string.quoted.double.squirrel",
       "begin": "\"",
