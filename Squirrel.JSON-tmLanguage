@@ -47,7 +47,7 @@
           "match": "\\\\([tabnrvf\\\\\"'0]|x[\\da-fA-F]{1,4})"
         },
         { "name": "invalid.character.escape",
-          "match": "\\\\(x[^\\\\\"]?|.)"
+          "match": "\\\\x?."
         },
         { "name": "invalid.string.newline",
           "match": "\\n"

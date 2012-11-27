@@ -102,7 +102,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\\(x[^\\"]?|.)</string>
+					<string>\\x?.</string>
 					<key>name</key>
 					<string>invalid.character.escape</string>
 				</dict>
