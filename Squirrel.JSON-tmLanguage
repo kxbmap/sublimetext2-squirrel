@@ -58,7 +58,7 @@
       "match": "'([^\\\\']|\\\\([tabnrvf\\\\\"'0]|x[\\da-fA-F]{1,4}))'"
     },
     { "name": "invalid.character",
-      "match": "'.*?'"
+      "match": "'(''|[^']*'?)"
     },
     { "name": "constant.numeric.squirrel",
       "match": "\\b(0|[1-9]\\d*|0[xX][\\da-fA-F]{1,8}|0[0-3]?[0-7]{1,10})\\b"

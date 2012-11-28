@@ -122,7 +122,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>'.*?'</string>
+			<string>'(''|[^']*'?)</string>
 			<key>name</key>
 			<string>invalid.character</string>
 		</dict>
